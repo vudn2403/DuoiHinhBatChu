@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="#f94f00" />
+            <stroke
+                android:width="4dp"
+                android:color="@android:color/white" />
+        </shape>
+
+    </item>
+    <item android:state_enabled="true">
+        <bitmap android:src="@drawable/ic_tile_hover" />
+    </item>
+</selector>
